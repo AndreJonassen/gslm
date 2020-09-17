@@ -1,0 +1,1 @@
+var mySpreadsheet="https://docs.google.com/spreadsheets/d/1yWN7KWZx5j2HaVze6XfGSOTpLHYJe9dX-L5FoZuHFdU/edit#gid=1504282561";$("#datatable-buttons").sheetrock({url:mySpreadsheet,query:"select A,B,C,D,E,L where E = 'Both' order by L desc",fetchSize:10});
